@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Peachi"; /* Give a name to your font */
+  src: url("../Peachi-Regular.otf") format("truetype"); /* Provide the path to your font file */
+}
+
+body {
+  background: #f4f4f4;
+  border-radius: 40px;
+}
+
+.small-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.small-text p {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 10px;
+}
+
+/* Wrapper */
+.wrapper {
+  margin: 3rem;
+  margin-bottom: 1rem;
+  margin-top: -45px;
+  background: #ffffff;
+
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+  border-radius: 8px;
+
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-bottom: 0.5rem;
+}
+
+.header {
+  margin: 3rem 2.5rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse_img {
+  width: 48px;
+  height: 48px;
+}
+
+.left_header_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 0.5rem;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0c1014;
+}
+
+.co-founder {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #7d7d7d;
+}
+
+/* Hero section */
+.hero_section {
+  margin: 3rem 2.5rem;
+  margin-top: -25px;
+}
+
+.picture_div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.picture_div_img {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  font-family: "Peachi", sans-serif; /* Use the font by its name */
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding: 2rem 5rem;
+  color: #0c1014;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero_section_text {
+  font-family: "Inter";
+  font-size: 16px;
+  text-align: center;
+  color: #515759;
+  padding: 1.75rem 1.5rem;
+}
+
+.hero_section button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13.8453px 55.3813px;
+  gap: 17.31px;
+
+  background: #73bea7;
+  border-radius: 40px;
+
+  margin: auto;
+  border: none;
+}
+
+.hero_section button a {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* About Us */
+.about_us_rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 2rem 1.25rem;
+}
+
+.about_us_rows_img_div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_us_rows_text_div {
+  width: 50%;
+}
+
+.about_us h1 {
+  font-family: "Peachi", sans-serif; /* Use the font by its name */
+  font-weight: 700 !important;
+  font-size: 24px;
+  text-align: center;
+  color: #0c1014;
+
+  padding: 0 5rem;
+}
+
+.about_us_rows p {
+  font-family: "Inter";
+  font-size: 16px;
+  text-align: center;
+  color: #515759;
+  padding: 0 0.8rem;
+}
+
+.about_us_rows_button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13.8453px 100.3813px;
+  /* gap: 17.31px; */
+
+  background: #73bea7;
+  border-radius: 40px;
+
+  margin: auto;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.about_us_rows_button a {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about_us_rows_button a span {
+  font-weight: normal;
+}
+
+/* Footer */
+footer {
+  max-width: 550px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+footer > p > a {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #1890ff;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .right_header_img {
+    width: 80px;
+  }
+}
